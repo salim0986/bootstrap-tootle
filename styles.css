@@ -1,0 +1,230 @@
+.colored-section {
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.white-section {
+    background-color: #fff;
+    text-align: center;
+}
+
+#title {
+    height: 93vh;
+    text-align: left;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    color: white;
+}
+
+h1 {
+    size: 3rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    /* text-align: left; */
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.features-heading {
+    color: #000;
+    font-weight: 700;
+}
+
+.pricing-subhead {
+    color: black;
+    font-weight: 600;
+}
+
+.carousel-item {
+    padding: 3% 15%;
+}
+
+#features {
+    padding: 3% 10%;
+    line-height: 1.5;
+    position: relative;
+}
+
+#press {
+    padding-bottom: 3rem;
+}
+
+#press img {
+    margin: 0 2.5rem;
+}
+
+.pricing {
+    margin-top: 2.5%;
+    /* margin-bottom: 0%; */
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    margin: 0 1.5rem;
+}
+
+.img-sm {
+    height: 35rem;
+    transform: rotate(25deg);
+    margin-left: 5rem;
+    position: absolute;
+}
+
+#press>img {
+    height: 2rem;
+}
+
+.footer {
+    margin: 5rem auto 0;
+    height: 20vh;
+}
+
+.cta-con {
+    padding: 1% 5%;
+    height: 40vh;
+}
+
+.download {
+    margin: 5% 4% 3% 0;
+}
+
+.f-para {
+    color: #8f8f8f;
+    padding: 0 1.5rem;
+}
+
+.fa-solid {
+    color: #ef8172;
+}
+
+.fa-solid:hover {
+    color: #ff4c68;
+}
+
+.dog-review {
+    height: 6rem;
+    border-radius: 50%;
+    margin: 2rem 0rem;
+}
+
+.card-body h2 {
+    color: black;
+}
+
+
+/* .pricing-column {
+                        padding: 2% 4%;
+                    } */
+
+.dark {
+    font-weight: 900;
+    font-size: 2rem;
+    color: black;
+}
+
+.cta-heading {
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.downloadd {
+    margin: 2% 2% 3% 0;
+}
+
+.copy {
+    color: rgb(170, 159, 159);
+    font-family: 'Ubuntu';
+    font-size: 0.8rem;
+}
+
+.handles {
+    padding-bottom: 1%;
+}
+
+.handles i {
+    color: black;
+}
+
+.handles i:hover {
+    color: #ff4c68;
+}
+
+.brands img {
+    height: 2rem;
+}
+
+.about {
+    font-style: italic;
+    font-weight: 100;
+    font-family: 'Montserrat';
+    letter-spacing: 0;
+}
+
+@media all and (max-width:767px) {
+    .img-sm {
+        transform: rotate(0);
+        position: static;
+        margin: 0 auto;
+        height: 33rem;
+        /* padding-bottom: 50%; */
+    }
+    #title {
+        text-align: center;
+        /* padding-bottom: 50%; */
+        height: 150vh;
+    }
+    .download {
+        margin: 3% 1%;
+    }
+    .carousel-item h2 {
+        font-size: 2rem;
+    }
+    .carousel-item img {
+        height: 5rem;
+    }
+    .brands img {
+        height: 1.2rem;
+    }
+    /* #features {} */
+}
+
+@media (max-width:992px) and (min-width:767px) {
+    .img-sm {
+        height: 29rem;
+        margin-left: 0;
+    }
+}
+
+
+/* .pricing-button {
+        padding: 0 10rem;
+    } */
+
+
+/* .card {
+        padding: 2rem;
+    } */
+
+
+/* .container {
+    margin: 0 auto;
+} */
